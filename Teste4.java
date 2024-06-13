@@ -4,10 +4,12 @@ import java.lang.annotation.*;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.TYPE,ElementType.FIELD , ElementType.METHOD})
+@Target({ElementType.TYPE, ElementType.FIELD,ElementType.CONSTRUCTOR})
 
-public @interface Tabela {
+public @interface Teste4 {
 
     String value();
 }
+
+
 
